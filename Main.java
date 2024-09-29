@@ -12,6 +12,15 @@ public class Main {
             value += 2;
         }
 
+        /* еще один способ получения 6.0 включительно, но менее актуальный чем предложенный далее
+        Random random = new Random();
+        int min = -500000000;
+        int max = 600000001;
+        int randomNumber = random.nextInt(max - min) + min;
+        double result = (double) randomNumber / 100000000;
+        System.out.println(result);
+        */
+
         double[] x = new double[20];
         Random random = new Random();
         for (int i = 0; i < x.length; i++) {
